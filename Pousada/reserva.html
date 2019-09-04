@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Pousada, Rio Grande, Barato, Reserva">
+    <meta name="description"
+        content="Area de reserva de quartos da pousada. ">
+    <title>Reservas</title>
+    
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <nav>
+    <header>
+    <ul>
+        <li><img src="logo.png" alt="Logo" id="logo"></li>
+        <li>
+            <a href="index.html">Início</a>
+        </li>
+        <li>
+            <a href="hospedagem.html">Hospedagem</a>
+        </li>
+        <li>
+            <a href="reserva.html">Reservas</a>
+        </li>
+    </ul>
+</header>
+<h1>Bem-vindo a o recanto do registro!</h1>
+
+                  <fieldset>
+                        
+                    <legend>Preencha os campos para registrar sua estadia.</legend> 
+                    <form>
+                        <p>
+                          <label for="nome">Nome:</label>
+                          <input type="text" id="nome" autofocus required>
+                        </p>
+                        <p>
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" required>
+                          </p>
+                          <p>
+                            <label for="email">Confirmar E-mail:</label>
+                            <input type="email" id="email" required>
+                          </p>
+                          <p>
+                            <label for="cpf">CPF</label>
+                            <input type="number" id="cpf" autofocus required>
+                          </p>
+                          <p>
+                            <label for="Nasc">Data de Nascimento</label>
+                            <input type="date" id="Nasc"autofocus required>
+                          </p>
+                          <p>
+                              <label for="sexo">Sexo:</label>
+                              <input type="radio" name="sexo" id="sexom"> Masculino
+                              <input type="radio" name="sexo" id="sexof"> Feminino
+                          </p> 
+                         
+                            <p>
+                                <label for="quar">Tipo de Quarto(+R$ 25 por dia.)</mark></label>
+                                <select id="quar">
+                                  <option value="Solt">Solteiro R$60</option>
+                                  <option value="Cas">Casal R$115</option>
+                                  <option value="Fam">Família R$60 p/Pessoa</option>
+                                  <option value="Fam">Premium R$250</option>
+                                </select>
+                              
+                                
+                                
+                                
+                              </p>
+                              
+                                <label for="cafe">Café da manhã especial(Opcional):</label>
+                              
+                                <input type="radio" name="dinc" id="cafs"> Incluso(40R$)
+                                <input type="radio" name="dinc" id="cafs">Padrão(Café normal.)
+                            </p>
+                            <img src="piscina1.jpg" alt="" id="pisc">
+                          <p style="color:red">Confirme seus dados para verificarmos a disponibilidade de quartos.</p>
+                         
+                          <p>
+                              <input type="submit" value="Verificar disponibilidade">
+                              <input type="reset" value="Limpar dados">
+                            </p>
+                </fieldset>
+</nav>
